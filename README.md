@@ -156,7 +156,7 @@ The goal is to incorporate AI-powered functionalities to explore the future pote
 
 ## 📬 Contact Information
 
-For any questions or suggestions, feel free to reach out via [GitHub Issues](https://github.com/ArifMiah07/pdf-reader/issues) or contact me directly at [your-email@example.com](mailto:your-email@example.com).
+For any questions or suggestions, feel free to reach out via [GitHub Issues](https://github.com/ArifMiah07/pdf-reader/issues) or contact me directly at [arifmiah.me101@gmail.com](mailto:arifmiah.me101@gmail.com).
 
 ---
 
