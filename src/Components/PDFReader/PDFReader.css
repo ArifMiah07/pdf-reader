@@ -1,4 +1,8 @@
-.text-layer {
+.btn {
+    @apply bg-blue-500 text-white px-2 py-1 rounded text-sm md:text-base md:px-4 md:py-2 hover:bg-blue-600 transition-colors;
+  }
+  
+  .text-layer {
     position: absolute;
     left: 0;
     top: 0;
@@ -7,6 +11,7 @@
     overflow: hidden;
     opacity: 0.2;
     line-height: 1.0;
+    user-select: text;
   }
   
   .text-layer > span {
@@ -19,4 +24,12 @@
   
   .text-layer ::selection {
     background: rgba(0,0,255,0.3);
+  }
+  
+  .text-layer span::selection {
+    background: rgba(0,0,255,0.3);
+  }
+  
+  .text-layer span[style*="background-color: yellow"] ::selection {
+    background: transparent;
   }
