@@ -174,4 +174,112 @@ The MIT License allows you to:
 
 As long as you include the original license in any copies of the software that you distribute, you are free to do almost anything with it.
 
+---
+
+### Complete Project File and Folder Structure
+```plaintext
+pdf-reader/
+├── .github/                         # GitHub Actions workflows
+│   └── workflows/                   # CI/CD workflows
+│       └── ci.yml                   # CI configuration
+├── docker/                          # Docker configurations
+│   ├── Dockerfile                    # Dockerfile for the application
+│   └── docker-compose.yml            # Docker Compose configuration
+├── docs/                            # Documentation directory
+│   ├── API.md                       # API documentation
+│   ├── Architecture.md              # Architecture design
+│   └── UserGuide.md                 # User guide for the app
+├── public/                          # Public assets
+│   ├── index.html                   # Main HTML file
+│   ├── favicon.ico                  # Favicon
+│   └── assets/                      # Static assets (if needed)
+├── src/                             # Main source code
+│   ├── assets/                       # Directory for images, icons, and fonts
+│   │   ├── images/                  # Directory for images
+│   │   ├── icons/                   # Directory for icons
+│   │   └── fonts/                   # Directory for custom fonts
+│   ├── components/                   # Reusable UI components
+│   │   ├── Header.js                 # Header component
+│   │   ├── Footer.js                 # Footer component
+│   │   ├── PDFViewer.js              # Main PDF viewer component
+│   │   ├── ZoomControls.js           # Zoom control component
+│   │   └── ...                       # Other components
+│   ├── pages/                        # Page components
+│   │   ├── Home.js                   # Home page
+│   │   ├── Login.js                  # Login page
+│   │   ├── Dashboard.js              # User dashboard page
+│   │   └── ...                       # Other pages
+│   ├── features/                     # Feature-specific components
+│   │   ├── Annotation.js             # Annotation component
+│   │   ├── NoteTaking.js             # Note-taking component
+│   │   ├── Bookmarking.js             # Bookmarking component
+│   │   └── ...                       # Other features
+│   ├── context/                      # Context API files
+│   │   ├── AuthContext.js            # Authentication context
+│   │   ├── PDFContext.js             # PDF handling context
+│   │   └── ...                       # Other contexts
+│   ├── hooks/                        # Custom hooks
+│   │   ├── useAuth.js                # Custom hook for authentication
+│   │   ├── usePDF.js                 # Custom hook for PDF management
+│   │   └── ...                       # Other hooks
+│   ├── store/                        # State management (optional)
+│   │   ├── index.js                  # Main store file
+│   │   ├── actions/                  # Actions for Redux or Zustand
+│   │   ├── reducers/                 # Reducers for managing state
+│   │   └── selectors/                # Selectors for accessing state
+│   ├── utils/                        # Utility functions
+│   │   ├── api.js                    # API utility functions
+│   │   ├── pdfUtils.js               # PDF-related utilities
+│   │   └── ...                       # Other utilities
+│   ├── i18n/                         # Localization files
+│   │   ├── en.json                   # English translations
+│   │   ├── fr.json                   # French translations
+│   │   └── ...                       # Other languages
+│   ├── App.js                        # Main App component
+│   ├── index.js                      # Entry point
+│   ├── styles/                       # Global styles
+│   │   ├── index.css                 # Main CSS file
+│   │   └── tailwind.config.js        # Tailwind CSS configuration
+│   └── setupTests.js                 # Testing setup file
+├── __tests__/                        # Directory for tests
+│   ├── client/                       # Frontend tests
+│   │   ├── components/               # Tests for components
+│   │   ├── pages/                    # Tests for pages
+│   │   └── utils/                    # Tests for utilities
+│   └── server/                       # Backend tests
+│       ├── controllers/              # Tests for controllers
+│       ├── routes/                   # Tests for routes
+│       └── models/                   # Tests for models
+├── server/                           # Backend code
+│   ├── config/                       # Configuration files
+│   │   ├── db.js                     # Database configuration
+│   │   ├── server.js                 # Main server file
+│   │   └── ...                       # Other configs
+│   ├── controllers/                  # Controllers for handling requests
+│   │   ├── authController.js         # Authentication controller
+│   │   ├── pdfController.js          # PDF handling controller
+│   │   └── ...                       # Other controllers
+│   ├── models/                       # Database models
+│   │   ├── User.js                   # User model
+│   │   ├── PDF.js                    # PDF model
+│   │   └── ...                       # Other models
+│   ├── routes/                       # Express routes
+│   │   ├── authRoutes.js             # Authentication routes
+│   │   ├── pdfRoutes.js              # PDF handling routes
+│   │   └── ...                       # Other routes
+│   ├── middleware/                   # Middleware functions
+│   │   ├── authMiddleware.js          # Authentication middleware
+│   │   └── ...                       # Other middleware
+│   └── utils/                       # Utility functions for the backend
+│       ├── pdfUtils.js               # PDF-related utilities
+│       └── ...                       # Other utilities
+├── .env                              # Environment variables
+├── .gitignore                        # Files to ignore in Git
+├── package.json                      # NPM dependencies and scripts
+├── README.md                         # Project documentation
+└── LICENSE                           # License information
+```
+
+
+
 
