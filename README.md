@@ -6,21 +6,49 @@
 
 - [ zooming ] 
 - [ navigating ] 
-- [multiple tabs for opening / reading multiple pdf's]
+- [ multiple tabs for opening / reading multiple pdf's]
+- [ note taking]
 - [ searching ] 
 - [ bookmarking ] 
 - [ highlighting ] 
 - [ commenting ] 
 - [ exporting ] 
 - [ printing ] 
-- [ password protected ] 
+- [ user account]
+- [ user dashboard]
 - [ multi language ] 
 - [ dark mode ] 
 - [ light mode ] 
+- [ other formats like epub, mobi, docx, pptx, xlsx, etc support ]
+- [ images and videos support ]
+- [ google drive and dropbox integration ]
+- [ AI integration ]
+- [ responsive ]
+- [ andriod and windows support {with react native and electron js} ]
+- [ password protected ] 
+- [ free ] 
+- [ open source ]
+- [ secure ] 
+- [ reliable ] 
+- [ scalable ] 
+- [ customizable ] 
+
+----------
+
+- [ easy to use ] 
+- [ easy to integrate ] 
+- [ easy to customize ] 
+- [ easy to maintain ] 
+- [ easy to deploy ] 
+- [ easy to scale ] 
+
+-----------------
+
+#### if integrated with AI,
 - [ two way audio ] 
 - [ two way video ] 
 - [ two way voice ] 
-
+- [ two way text ] 
 ---
 
 ## Technologies
