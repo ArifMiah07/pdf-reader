@@ -1,8 +1,83 @@
-# React + Vite
+# pdf-reader 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###### pdf reader is a web app that allows you to read pdf files
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [ zooming ] 
+- [ navigating ] 
+- [multiple tabs for opening / reading multiple pdf's]
+- [ searching ] 
+- [ bookmarking ] 
+- [ highlighting ] 
+- [ commenting ] 
+- [ exporting ] 
+- [ printing ] 
+- [ password protected ] 
+- [ multi language ] 
+- [ dark mode ] 
+- [ light mode ] 
+- [ two way audio ] 
+- [ two way video ] 
+- [ two way voice ] 
+
+---
+
+## Technologies
+
+- [ react ] 
+- [ tailwind ] 
+- [ lucide ] 
+- [ pdfjs ] 
+- [ react-router-dom ] 
+- [ react-helmet ] 
+
+-----
+
+- [ react-hook-form ] 
+- [ yup ] 
+- [ zod ] 
+- [ formik ] 
+- [ react-dropzone ] 
+- [ react-toastify ] 
+
+- [ react-lazy-load-image-component ] 
+- [ react-pdf ] 
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/ArifMiah07/pdf-reader.git
+cd pdf-reader
+npm install
+```
+
+## Usage
+
+```bash
+npm start
+```
+or
+
+```bash
+npm run dev
+```
+
+
+noted:
+
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ]   
+
+###### note: this project is still under development and not all features are implemented yet 
+###### also note: i aimed to make this project with an ai assistant to experience the power of ai and gain experience with very close future ai developers
+
+--------
