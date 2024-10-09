@@ -30,6 +30,7 @@
 - **Commenting**: Add and manage comments for collaborative or personal reviews.
 - **Exporting**: Export PDF annotations, notes, or even complete documents in various formats.
 - **Printing**: Print your PDFs with a single click.
+- **Editing**: Edit your PDFs with a single click.
 - **User Accounts**: Personalized experience with user accounts to manage files, notes, and preferences.
 - **User Dashboard**: A powerful dashboard to manage all your PDF interactions in one place.
 - **Multi-Language Support**: Full support for multiple languages for a global audience.
